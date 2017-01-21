@@ -1,0 +1,24 @@
+name: ChatManagerLite
+main: net.zabszk.chatmanagerlite.Main
+description: Simple plugin to manage chat.
+version: 1.1
+author: zabszk
+load: STARTUP 
+
+commands:
+   cc:
+      description: Clears chat.
+      usage: /cc
+      aliases: [ccg, clearchat]
+   ccl:
+      description: Clears player's chat.
+      usage: /ccl [nick]
+      aliases: [cpl, clp, clearlchat, clearlocalchat, clearplayerchat]
+   cl:
+      description: Locks chat.
+      usage: /cl
+      aliases: [clg, lockchat]
+   cmr:
+      description: Reloads plugin config.
+      usage: /cmr
+      aliases: [cmlr, clearchatreload, chatmanagerreload, chatmanagerlitereload]
